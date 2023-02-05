@@ -1,0 +1,22 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FreshMAUIApp"
+             x:Class="FreshMAUIApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="CobaltBlue">#0085CA</Color>
+            <Color x:Key="InteractiveCobaltBlue">#007CBD</Color>
+            <Color x:Key="PrimaryBlue">#007CBD</Color>
+            <Color x:Key="NavigationLogoBlue">#0071CC</Color>
+            <Color x:Key="LightBlue">#B9D9EB</Color>
+            <Color x:Key="MediumBlue">#00A9E0</Color>
+            <Color x:Key="MedtronicBlue">#004B87</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
